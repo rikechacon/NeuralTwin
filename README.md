@@ -51,6 +51,6 @@ Bash
 
 python agents/falcon_predictive.py
 Prueba el sistema iniciando la patología desde la web y observa cómo el agente Falcon interviene autónomamente cuando detecta una pendiente de caída crítica.
-
+```
 📄 Licencia y Autores
 Desarrollado como investigación independiente en la intersección de la neurotecnología y los sistemas multiagente predictivos.
