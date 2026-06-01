@@ -33,7 +33,7 @@ Asegúrate de tener instalado Python 3.10+ y Node.js.
 pip install numpy websockets
 python backend/api/server.py
 (Asegúrate de exponer el puerto 8765 de forma pública si usas entornos en la nube como GitHub Codespaces).
-
+```
 2. Levantar la Interfaz Visual (Frontend)
 En una nueva terminal:
 
@@ -43,7 +43,7 @@ cd frontend
 npm install
 npm run dev
 Abre la URL proporcionada por Vite (usualmente en el puerto 5173).
-
+```
 3. Activar la Inteligencia Artificial (Agente Falcon)
 En una tercera terminal:
 
