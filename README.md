@@ -34,7 +34,7 @@ pip install numpy websockets
 python backend/api/server.py
 (Asegúrate de exponer el puerto 8765 de forma pública si usas entornos en la nube como GitHub Codespaces).
 ```
-```
+---
 ###2. Levantar la Interfaz Visual (Frontend)
 En una nueva terminal:
 
@@ -45,7 +45,7 @@ npm install
 npm run dev
 Abre la URL proporcionada por Vite (usualmente en el puerto 5173).
 ```
-```
+---
 ###3. Activar la Inteligencia Artificial (Agente Falcon)
 En una tercera terminal:
 
@@ -53,6 +53,6 @@ Bash
 
 python agents/falcon_predictive.py
 Prueba el sistema iniciando la patología desde la web y observa cómo el agente Falcon interviene autónomamente cuando detecta una pendiente de caída crítica.
-```
+---
 📄 Licencia y Autores
 Desarrollado como investigación independiente en la intersección de la neurotecnología y los sistemas multiagente predictivos.
