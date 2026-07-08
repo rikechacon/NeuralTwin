@@ -399,4 +399,3 @@ class BrainTwinEngine:
         return [[round(self.W[i,j], 3) for j in range(N_NODES)]
                 for i in range(N_NODES)]
 PYEOF
-echo "engine.py: $(wc -l < /home/claude/NeuralTwin/backend/api/engine.py) líneas"
